@@ -237,6 +237,7 @@
         sh:node :LanguageRestriction ;
         sh:nodeKind sh:IRI ;
         sh:path dct:language ;
+	sh:message "A non EU managed concept is used to indicate a language. If no corresponding can be found inform the maintainer of the EU language NAL" ; 
 	sh:description "A non EU managed concept is used to indicate a language. If no corresponding can be found inform the maintainer of the EU language NAL" ; 
         sh:severity sh:Violation
     ], [
@@ -244,6 +245,7 @@
         sh:node :Publisher_ShapeCV ;
         sh:nodeKind sh:IRI ;
         sh:path dct:publisher ;
+	sh:message "A non EU managed concept is used to indicate the publisher, check if a corresponding exists in the EU corporates bodies NAL" ; 
 	sh:description "A non EU managed concept is used to indicate the publisher, check if a corresponding exists in the EU corporates bodies NAL" ; 
         sh:severity sh:Warning
     ], [
